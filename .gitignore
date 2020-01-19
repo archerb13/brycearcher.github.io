@@ -47,3 +47,4 @@ Thumbs.db
 
 # local app-data
 src/app/services/*.json
+node_modules
