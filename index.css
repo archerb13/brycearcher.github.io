@@ -3,7 +3,7 @@
 }
 
 body {
-    background: url(paper.png);
+    background: url(links/paper.png);
 }
 
 .topnav {
@@ -27,7 +27,6 @@ body {
   
 .topnav a:hover {
     background-color: rgb(90, 129, 92);
-    /* color: black; */
 }
   
 .topnav a.active {
@@ -35,15 +34,20 @@ body {
     color: white;
 }
 
-.bio {
+.first {
     font-family: 'Exo', sans-serif;
-    padding: 125px 0 0 100px;
+    padding: 75px 0 0 100px;
 }
 
 .intro {
-    text-align: left;
     font-size: 30px;
-    margin: 0 550px 75px 0;
+    margin: 0 0 100px 0;
+}
+
+img {
+    float: right;
+    box-shadow: 0 5px 15px 5px rgb(97, 97, 97);
+    border-radius: 3px;
 }
 
 h1 {
