@@ -4,31 +4,46 @@
 <div class="background"> 
     <head>
         <link rel="stylesheet" href="index.css">
+        <script src="js_files/polish.js"></script>
+        <script type="text/javascript">
+        function setStatus() {
+            changeStatus(event);
+        }
+        </script>
         <link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">
-        <div class="topnav">
-                <a class="active" href="#home">Intro</a>
-                <a href="#about">Bio</a>
-                <a href="#contact">Contact</a>
-                <a href="#nah">About</a>
+        <div id="navDiv" class="topnav">
+                <a class="btn active" href="#first">Intro</a>
+                <a class="btn" href="#bio">Bio</a>
+                <a class="btn" href="#contact">Contact</a>
+                <a class="btn" href="#nah">About</a>
         </div>
     </head>
 
-    <body>
-        <div class="first">
-                <h1>Hello!</h1>
-                <hr>
-                <p class="intro"><img src="links/profile.png" alt="Profile Pic" width="190" height="310" style="margin: 0 200px 0 200px;">
-                    My name is <b>Bryce Archer</b>. I'm a Computer Science engineer 
-                    with a minor in Game Development. I have focused work in programming,
-                    mainly Front-End Development and general Software Engineering, and 
-                    am a passionate gamplay and audio engineer.</p>
-                <p><i>Quick links:</i></p>
-                <div class="links">
-                    <p><a href="links/BryceArcher_Resume.pdf" target="_blank">Software Engineer Resume</a> | 
-                        School Email (Preferred): <a href="mailto:archerb2@msu.edu?Subject=[Create Subject]" target="_top">archerb2@msu.edu</a> | 
-                        Personal Email: <a href="mailto:bryce.archer@att.net?Subject=[Create Subject]" target="_top">bryce.archer@att.net</a>
-                    </p>
-                </div>
+    <body onload="setStatus();">
+        <div class="first" id="first">
+            <h1>Hello!</h1>
+            <hr>
+            <p class="intro"><img src="links/profile.png" alt="Profile Pic" width="190" height="310" style="margin: 0 200px 0 200px;">
+                My name is <b>Bryce Archer</b>. I'm a Computer Science engineer 
+                with a minor in Game Development. I have focused work in programming,
+                mainly Front-End Development and general Software Engineering, and 
+                am a passionate gamplay and audio engineer.</p>
+            <p><i>Quick links:</i></p>
+            <div class="links">
+                <p><a href="links/BryceArcher_Resume.pdf" target="_blank">Software Engineer Resume</a> | 
+                    School Email (Preferred): <a href="mailto:archerb2@msu.edu?Subject=[Create Subject]" target="_top">archerb2@msu.edu</a> | 
+                    Personal Email: <a href="mailto:bryce.archer@att.net?Subject=[Create Subject]" target="_top">bryce.archer@att.net</a>
+                </p>
+            </div>
+        </div>
+
+        <div class="bio" id="bio">
+            <h1>Background</h1>
+            <hr>
+            <p class="about"> I'm a Computer Science engineer 
+                with a minor in Game Development. I have focused work in programming,
+                mainly Front-End Development and general Software Engineering, and 
+                am a passionate gamplay and audio engineer.</p>
         </div>
     </body>
 </div>

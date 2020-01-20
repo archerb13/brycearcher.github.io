@@ -2,16 +2,23 @@
     --mainColor: #4CAF50;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background: url(links/paper.png);
 }
 
 .topnav {
+    position: fixed;
+    width: 1205px;
     overflow: hidden;
     background-color: #333;
     margin:0 100px 0 100px;
     box-shadow: 0px 0px 5px 1px rgb(83, 83, 83);
     border-radius: 5px;
+    
 }
   
 .topnav a {
@@ -39,9 +46,18 @@ body {
     padding: 75px 0 0 100px;
 }
 
-.intro {
+.bio {
+    font-family: 'Exo', sans-serif;
+    padding: 200px 0 0 100px;
+}
+
+.intro, .about {
     font-size: 30px;
     margin: 0 0 100px 0;
+}
+
+.about {
+    margin: 0 50px 0 350px;
 }
 
 img {
@@ -50,16 +66,31 @@ img {
     border-radius: 3px;
 }
 
-h1 {
+.first h1 {
     font-size: 50px;
     margin: 0 0 30px 0;
-    padding: 10px 0 10px 0;
+    padding: 50px 0 10px 0;
     text-align: left;
+}
+
+.bio h1{
+    font-size: 50px;
+    margin: 0 325px 30px 0;
+    padding: 10px 0 10px 0;
+    text-align: center;
 }
 
 hr {
     display: block;
     margin: 10px 100px 60px 0;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgba(139, 139, 139, 0.336);
+}
+
+.bio hr {
+    display: block;
+    margin: 10px 100px 60px 350px;
     border-style: inset;
     border-width: 1px;
     border-color: rgba(139, 139, 139, 0.336);
