@@ -52,8 +52,8 @@ img {
     font-size: 17px;
 }
   
-.navbar a:hover {
-    background-color: rgb(138, 112, 112);
+.projnav a:hover {
+    color: #f2f2f2;
 }
 
 .projnav a:hover {
@@ -83,6 +83,21 @@ img {
 .intro, .about, .mciph {
     font-size: 30px;
     margin: 0 0 100px 0;
+}
+
+.mciph {
+    font-size: 20px;
+    margin: 0 0 25px 0;
+}
+
+.mciphleft {
+    font-size: 20px;
+    margin: 0 150px 10px 0;
+}
+
+li {
+    font-size: 17px;
+    margin: 0 150px 10px 0;
 }
 
 .about {
@@ -120,9 +135,10 @@ img {
 
 h2 {
     font-size: 35px;
+    margin: 0 0 0 450px;
 }
 
-hr, .project hr {
+.first hr, .project hr {
     display: block;
     margin: 10px 100px 50px 0;
     border-style: inset;
@@ -136,6 +152,12 @@ hr, .project hr {
     border-style: inset;
     border-width: 1px;
     border-color: rgba(139, 139, 139, 0.336);
+}
+
+.cardpic {
+    float: left;
+    box-shadow: 0 5px 15px 5px rgb(97, 97, 97);
+    border-radius: 3px;
 }
 
 .links a{
