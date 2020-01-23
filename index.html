@@ -8,18 +8,25 @@
         <script type="text/javascript">
         function setStatus() {
             changeStatus(event);
+            //changeStatusProj(event);
         }
         </script>
+        <meta name="viewport" content="width=device-width, initial-scale=1">
         <link href="https://fonts.googleapis.com/css?family=Exo:400,700&display=swap" rel="stylesheet">
-        <div id="navDiv" class="topnav">
-                <a class="btn active" href="#first">Intro</a>
-                <a class="btn" href="#bio">Bio</a>
-                <a class="btn" href="#contact">Contact</a>
-                <a class="btn" href="#nah">About</a>
-        </div>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
     </head>
 
-    <body onload="setStatus();">
+    <body data-spy="scroll" data-target=".navbar" onload="setStatus();">
+        <nav id="navDiv" class="navbar navbar-inverse navbar-fixed-top" style="border-radius: 5px;">
+            <ul class="nav navbar-nav">
+                <li><a class="btn" href="#first">Intro</a></li>
+                <li><a class="btn" href="#bio">Background</a></li>
+                <li><a class="btn" href="#project">Projects</a></li>
+                <li><a class="btn" href="#nah">About</a></li>
+            </ul>
+        </nav>
         <div class="first" id="first">
             <h1>Hello!</h1>
             <hr>
@@ -41,21 +48,47 @@
             <h1>Background</h1>
             <hr>
             <p class="about"> I'm currently a Michgian State Senior studying Computer Science and Game Development. I'm 
-                expected to graduate in May 2020. Through my Game Development program, I have had the opportunity to develope and program many 
+                expected to graduate in <b>May 2020</b>. Through my Game Development program, I have had the opportunity to develope and program many 
                 different games with many different mechanics and themes. I have taken the roles of gameplay 
                 programmer and audio designer and programmer. I take a lot of joy in the project and content I have created. Through opportunities given to me, I have been able to excel 
-                in both Gameplay Programming and Audi Design and Programming.
+                in both <b>Gameplay Programming</b> and <b>Audio Design and Programming</b>.
             </p>
             <p class="about">
                 I have taken roles in Lead Audio and Sound Design on my recent projects. I have had to become familiar with music making and implementation.
                 For theme music, I self-taught myself in making music through a tool known as <b>Logic Pro X</b>.
-                Through this, I have made many differnt themes for games I have helped produce. Using both built in sounds, loops, and synth, I have made my own unqie 
+                Through this, I have made many differnt themes for games I have helped produce. Using both built in sounds, loops, and synth, I have made my own unique 
                 game music. I have also taught myself some music production by combinding this application with electronic keyboards and touch pads known as <b>Roli</b>. 
             </p>
             <p class="about">
                 As for other sounds such as sound effects, I have been using both <b>Logic Pro X</b> and another tool <b>Reaper</b>. Using various microphones, such as <b>Blue Snowball</b>, 
-                along with some online resources like <b>YouTube to MP3 Converters</b>.
+                along with some online resources like <b>YouTube to MP3 Converters</b>, I have created unique theme musioc and sound affects. Below is a link to my SoundCloud, where yyou will 
+                find majority of my sounds.
             </p>
+            <p class="sclink"><i><b>SoundCloud Link:</b></i></p>
+            <div class="links">
+                <p class="about"><a href="https://soundcloud.com/bryce1363" target="_blank">SoundCloud.com</a></p>
+            </div>
+        </div>
+
+        <div class="project" id="project">
+            <h1>Featured Projects</h1>
+            <hr>
+            <div id="projDiv" class="projnav">
+                <a class="bttn active hi" data-toggle="tab" href="#mciph">Magic Cat</a>
+                <a class="bttn" data-toggle="tab" href="#poa">Paintings of Athena</a>
+                <a class="bttn" data-toggle="tab" href="#fill iin something">Robo Re-Die-Wrecked</a>
+                <a class="bttn" data-toggle="tab" href="#gonna put something here">Other Projects</a>
+            </div>
+            <div class="tab-content">
+                <div id="mciph" class="tab-pane fade in active">
+                    <h2><i><b>Magic Cat in  a Purple Hat</b></i></h2>
+                    <p class="mciph"><img src="links/mciph_lizard.png" alt="MCIPH Pic" width="310" height="190" style="margin: 0 200px 0 200px;">Hello</p>
+                </div>
+                <div id="poa" class="tab-pane fade">
+                    <h2><i><b>Paintings of Athena</b></i></h2>
+                    <p class="mciph"><img src="links/mciph_lizard.png" alt="MCIPH Pic" width="310" height="190" style="margin: 0 200px 0 200px;">Hello</p>
+                </div>
+            </div>
         </div>
     </body>
 </div>

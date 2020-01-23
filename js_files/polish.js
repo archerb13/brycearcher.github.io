@@ -1,12 +1,13 @@
 function changeStatus(event) {
     event.preventDefault();
-    var header = document.getElementById("navDiv");
-    var btns = header.getElementsByClassName("btn");
-    for (var i = 0; i < btns.length; i++) {
-        btns[i].addEventListener("click", function() {
-            var current = document.getElementsByClassName("active");
-            current[0].className = current[0].className.replace(" active", "");
-            this.className += " active";
+    var head = document.getElementById("projDiv");
+    var bttns = head.getElementsByClassName("bttn");
+    for (var i = 0; i < bttns.length; i++) {
+        bttns[i].addEventListener("click", function() {
+            var current = document.getElementsByClassName("hi");
+            console.log(current);
+            current[0].className = current[0].className.replace(" active hi", "");
+            this.className += " active hi";
         });
     }
 }
