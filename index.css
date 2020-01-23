@@ -155,4 +155,6 @@ hr, .project hr {
 
 .links a:hover {
     background-size: 4px 50px;
+    color: #000;
+    text-decoration: none;
 }
