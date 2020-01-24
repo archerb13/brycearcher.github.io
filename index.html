@@ -31,7 +31,7 @@
             <h1><b>Hello!</b></h1>
             <hr>
             <p class="intro"><img src="links/profile.png" alt="Profile Pic" width="190" height="310" style="margin: 0 200px 20px 200px;">
-                My name is <b>Bryce Archer</b>. I'm a Computer Science engineer and Game Developer. I have focused work in programming,
+                My name is <b>Bryce Archer</b>. I'm a Computer Science Engineer and Game Developer. I have focused work in programming,
                 mainly Front-End Development and general Software Engineering, and in Gamplay and Audio Engineer. 
             </p>
             <p><i><b>Quick links:</b></i></p>
@@ -47,26 +47,43 @@
         <div class="bio" id="bio">
             <h1><b>Background</b></h1>
             <hr>
-            <p class="about"> I'm currently a Michgian State Senior studying Computer Science and Game Development. I'm 
-                expected to graduate in <b>May 2020</b>. Through my Game Development program, I have had the opportunity to develope and program many 
-                different games with many different mechanics and themes. I have taken the roles of gameplay 
-                programmer and audio designer and programmer. I take a lot of joy in the project and content I have created. Through opportunities given to me, I have been able to excel 
-                in both <b>Gameplay Programming</b> and <b>Audio Design and Programming</b>.
-            </p>
-            <p class="about">
-                I have taken roles in Lead Audio and Sound Design on my recent projects. I have had to become familiar with music making and implementation.
-                For theme music, I self-taught myself in making music through a tool known as <b>Logic Pro X</b>.
-                Through this, I have made many differnt themes for games I have helped produce. Using both built in sounds, loops, and synth, I have made my own unique 
-                game music. I have also taught myself some music production by combinding this application with electronic keyboards and touch pads known as <b>Roli</b>. 
-            </p>
-            <p class="about">
-                As for other sounds such as sound effects, I have been using both <b>Logic Pro X</b> and another tool <b>Reaper</b>. Using various microphones, such as <b>Blue Snowball</b>, 
-                along with some online resources like <b>YouTube to MP3 Converters</b>, I have created unique theme musioc and sound affects. Below is a link to my SoundCloud, where yyou will 
-                find majority of my sounds.
-            </p>
-            <p class="sclink"><i><b>SoundCloud Link:</b></i></p>
-            <div class="links">
-                <p class="about"><a href="https://soundcloud.com/bryce1363" target="_blank">SoundCloud.com</a></p>
+            <div id="projDiv" class="aboutnav">
+                <a class="bttn active hi" data-toggle="tab" href="#biomegd">Game Dev</a>
+                <a class="bttn" data-toggle="tab" href="#biomecse">Computer Science</a>
+            </div>
+            <div class="tab-content">
+                <div id="biomegd" class="tab-pane fade in active">
+                    <p class="about"> I'm currently a Michgian State Senior studying Computer Science and Game Development. I'm 
+                        expected to graduate in <b>May 2020</b>. Through my Game Development program, I have had the opportunity to develope and program many 
+                        different games with many different mechanics and themes. I have taken the roles of gameplay 
+                        programmer and audio designer and programmer. I take a lot of joy in the project and content I have created. Through opportunities given to me, I have been able to excel 
+                        in both <b>Gameplay Programming</b> and <b>Audio Design and Programming</b>.
+                    </p>
+                    <p class="about">
+                        I have taken roles in <b>Lead Audio and Sound Design</b> on my recent projects. I have had to become familiar with music making and implementation.
+                        For theme music, I self-taught myself in making music through a tool known as <b>Logic Pro X</b>.
+                        Through this, I have made many differnt themes for games I have helped produce. Using both built in sounds, loops, and synth, I have made my own unique 
+                        game music. I have also taught myself some music production by combinding this application with electronic keyboards and touch pads known as <b>Roli</b>. 
+                    </p>
+                    <p class="about">
+                        As for <b>sound effects</b>, I have been using both <b>Logic Pro X</b> and another tool <b>Reaper</b>. Using various microphones, such as <b>Blue Snowball</b>, 
+                        along with some online resources like <b>YouTube to MP3 Converters</b>, I have created unique theme musioc and sound affects. Below is a link to my SoundCloud, where you will 
+                        find majority of my sounds.
+                    </p>
+                    <p class="sclink"><i><b>SoundCloud Link:</b></i></p>
+                    <div class="links">
+                        <p class="about"><a href="https://soundcloud.com/bryce1363" target="_blank">SoundCloud.com</a></p>
+                    </div>
+                </div>
+                <div id="biomecse" class="tab-pane fade">
+                    <h2><i>Under Construction</i></h2>
+                    <!-- <p class="about"> 
+                    </p> -->
+                    <p class="sclink"><i><b>GitHub Link:</b></i></p>
+                    <div class="links">
+                        <p class="about"><a href="https://github.com/archerb13" target="_blank">GitHub.com</a></p>
+                    </div>
+                </div>
             </div>
         </div>
 
@@ -98,20 +115,22 @@
                     <p class="mciph" style="margin: 0 0 35px 0;">
                         I served as Lead Sound Designer and backup Gameplay Programmer.
                     </p>
-                    <p class="mciphleft"><img class="cardpic" src="links/card.png" alt="Card Pic" width="550" height="350" style="margin: 0 50px 20px 0;">
+                    <p class="mciphleft"><img class="cardpic" src="links/card.png" alt="Card Pic" width="550" height="350" style="margin: 0 50px 100px 0;">
                         As Lead Sound Designer, I was in charge of the following:</p>
                         <li class="points">Self-taught myself Music Production tools such as Logic Pro X and Roli.</li>
                         <li class="points">Produced all the music/character themes, along with SFX to bring juice to the game.</li>
+                        <li class="points">Wrote my own music using built in sounds and loops included in Logic Pro X and Roli.</li>
                         <li class="points">Implemented an Audio Manager to organize all sounds in one place for easy integration. This allowed for music to be called at the appropriate times 
                             without causing a mesh of sounds.
-                        </li class="points">
+                        </li>
+                        <li class="points">Created Snapshots and Mixers to allow for multiple sounds at once at different volumes.</li>
                     <p class="mciphleft">As a Gameplay Programmer, I helped the Lead Programmer with the following:</p>
-                        <li class="points">Reviewed and cleaned any zombie code for readable code documentation.</li>
+                        <!-- <li class="points">Reviewed and cleaned any zombie code for readable code documentation.</li> -->
                         <li class="last">Helped with calling sound effects and theme music at the right moments for appropriate feeback for the player.</li>
                     </p>
                 </div>
                 <div id="poa" class="tab-pane fade">
-                    <h2 class="links"><i><b><a href="https://gamejolt.com/games/paintings_of_athena/390452" target="_blank">Paintings of Athena</a></b></i></h2>
+                    <h2 class="links"><i><b><a href="https://gamejolt.com/games/paintingofathena/384435" target="_blank">Paintings of Athena</a></b></i></h2>
                     <h2><i>Under Construction</i></h2>
                     <!-- <p class="mciph"><img src="links/mciph_lizard.png" alt="MCIPH Pic" width="310" height="190" style="margin: 20px 20px 0 200px;">Hello</p> -->
                 </div>
