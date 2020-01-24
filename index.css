@@ -135,7 +135,8 @@ img {
 
 h2 {
     font-size: 35px;
-    margin: 0 0 0 450px;
+    text-align: center;
+    margin: 0 100px 0 0;
 }
 
 .first hr, .project hr {
