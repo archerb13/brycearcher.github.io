@@ -17,6 +17,11 @@ img {
     border-radius: 3px;
 }
 
+.LI-profile-badge {
+    float: left;
+    box-shadow: 0 5px 15px 5px rgb(97, 97, 97);
+}
+
 .center {
     display: block;
     margin-left: auto;
