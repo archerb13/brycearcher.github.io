@@ -187,6 +187,7 @@ h2 {
     font-size: 35px;
     text-align: center;
     margin: 0 100px 0 0;
+    padding-right: 100px;
 }
 
 .first hr, .project hr {
