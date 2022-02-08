@@ -120,7 +120,7 @@ img {
 
 .first, .project {
     font-family: 'Exo', sans-serif;
-    padding: 75px 0 0 100px;
+    padding: 75px 100px 0 100px;
 }
 
 .bio {
